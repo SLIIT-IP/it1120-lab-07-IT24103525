@@ -10,7 +10,6 @@ public class IT24103525Lab7Q3
 
     final double DIS = 0.05;
     final double DI = 0.95;
-    int count[] = new int[5];
     int customer;
 
 
@@ -21,8 +20,8 @@ public class IT24103525Lab7Q3
       System.out.print("Enter total bill amount : ");
       double total = input.nextDouble(); 
 
-       System.out.print("Enter mode of payment (C for cash, O for other): ");
-       char methord = input.next().charAt(0);
+      System.out.print("Enter mode of payment (C for cash, O for other): ");
+      char methord = input.next().charAt(0);
      
        if(methord =='C'||methord =='c')
         {
